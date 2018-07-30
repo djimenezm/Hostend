@@ -1,0 +1,235 @@
+* {
+  margin: auto;
+  padding: 0;
+  text-align: justify;
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+
+/* -- menu --*/
+
+div.header {
+  width: 100%;
+  height: 100px;
+  background-color: #707070;
+  padding: 10px 50px;
+   
+}
+
+nav {
+  display: inline-block; 
+  font-size: 1em; 
+  width: 100%;   
+}
+
+ul {
+  display:inline-block; 
+  font-size:1.4em; 
+  width:75%; 
+}
+
+nav{
+  height: auto; /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */ 
+  margin: 0 auto; /* Centro el contenedor */
+  overflow: hidden;
+  text-align: right;
+  width: 100%; /* Defino el ancho de mi página */
+}
+
+ul{
+  float: right;
+  list-style-type: none; /* Elimino los estilos de lista */
+  padding: 0; 
+}
+
+li{
+  float: right; /* Floto los li para que se dispongan horizontalmente */
+}
+        
+li a{
+  padding: 10px 40px ; /* El padding añadirá separación entre los elementos */
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+div.reset {
+  clear: both;
+}
+
+div.sliderbox {
+  background-image: url(images/fondo-slider.png);
+  background-repeat: no-repeat;
+  padding: 7%;
+  background-size: cover; 
+}
+
+/* --Slider-- */
+
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body, figure { 
+  margin: 0; background: #fab900;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #ebebeb; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+/* --Services-- */
+
+div.servicesbox {
+  width: 100%;
+  height: auto;
+  background-color: #ebebeb;
+}
+
+table {
+  width: 100%;
+}
+
+div.iconos {
+  padding: 20px;
+}
+
+div.return {
+  text-align: center;
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  padding: 20px
+}
+
+td {
+  text-align: center;
+}
+
+div.newsbox {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  padding: 20px;
+}
+
+div.enlaces-noticias {
+  text-align: center;
+  padding: 40px;
+}
+
+div.eshopbox {
+  width: 100%;
+  height: auto;
+  background-color: #fab900;
+  padding: 20px;
+  
+}
+
+div.productos {
+  width:  980px;
+  margin: 0 auto;
+}
+
+div.buscador {
+  font-size: 28px;
+  padding: 20px 60px;
+  background-color: #ebebeb;
+}
+
+div.enlaces-eshop1 {
+  padding: 40px;
+  text-align: center;
+}
+
+iframe.centrado { 
+  width: 67%;
+  height: 1500px;
+  
+  
+}
+
+
+
+div.contacto {
+  width: 100%;
+  height: auto;
+  background-color: #000000;
+  color: #ebebeb;
+}
+
+div.pie {
+  font-size: 0.7em;
+  padding: 10px 20px;
+  
+}
+
+div.sourcing {
+  width: 40%;
+  float: left;
+  padding: 30px 60px 30px 10px;
+  text-align: right;
+}
+
+span.color {
+  color: #fab900;
+}
+
+div.telf {
+  font-size: 40px;
+}
+
+div.registro {
+  width: 60%;
+  float: left;
+  padding: 30px 10px 30px 60px;
+  
+}
+
+div.registro2 {
+  background: #ebebeb;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  padding: 40px;
+  margin-top: 7%;
+}
+
+div.embed {
+  text-align: center;
+  
+}
+
+div.derechos {
+  font-size: 24px;
+  margin-left: 30px;
+}
